@@ -1,0 +1,31 @@
+{
+  "name": "next-svg-inline-loader",
+  "version": "2.0.0",
+  "description": "A webpack svg image inline loader module for next.js",
+  "license": "MIT",
+  "repository": "tinialabs/next-svg-inline-loader",
+  "author": "guy@tinia.org",
+  "homepage": "https://github.com/tinialabs/next-svg-inline-loader",
+  "main": "plugin.js",
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "scripts": {
+  },
+  "files": [
+    "plugin.js"
+  ],
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^5.5.0"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "webpack",
+    "nextjs",
+    "novela"
+  ]
+}
