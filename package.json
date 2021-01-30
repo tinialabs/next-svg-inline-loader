@@ -1,6 +1,6 @@
 {
   "name": "next-svg-inline-loader",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A webpack svg image inline loader module for next.js",
   "license": "MIT",
   "repository": "tinialabs/next-svg-inline-loader",

@@ -9,7 +9,7 @@
  * that includes meta data and lqip
  * @param {PluginProps} nextConfig
  */
-module.exports = function nextImageMetaLoader(nextConfig = {}) {
+module.exports = function nextSvgInlineLoader(nextConfig = {}) {
 
   mergeDefaults(nextConfig, {
     svgoPlugins: [
@@ -24,9 +24,6 @@ module.exports = function nextImageMetaLoader(nextConfig = {}) {
       },
     ]
   })
-
-  // strip leading ./ from output path
-  nextConfig.imageMetaOutput = nextConfig.imageMetaOutput.replace(/^\.?\/?/, '')
 
   return Object.assign({}, nextConfig, {
     webpack: (config, ...rest) => {
